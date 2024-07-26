@@ -1,0 +1,36 @@
+.counter-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.counter-display {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 15px;
+  margin: 10px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-increment {
+  background-color: #4caf50;
+  color: white;
+}
+
+.button-decrement {
+  background-color: #f44336;
+  color: white;
+}
+
+.button-reset {
+  background-color: #000000;
+  color: white;
+}
+
+.button:disabled {
+  background-color: #ef766e;
+}

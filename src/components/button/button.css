@@ -1,0 +1,68 @@
+button {
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 5px 5px 0px 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  font-style: normal;
+  text-align: center;
+  cursor: pointer;
+}
+
+button.save {
+  color: #fff;
+  background-color: #2185d0;
+}
+.btn-Save:hover {
+  background-color: #2175d0;
+}
+
+.btn-Save:active {
+  background-color: #1a64b3;
+}
+
+.btn-Discard {
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(223, 219, 219);
+}
+
+.btn-Discard:hover {
+  background-color: rgba(192, 188, 188, 0.74);
+}
+
+.btn-Discard:active {
+  background-color: rgba(182, 179, 179, 0.473);
+}
+
+.btn-color {
+  border-style: solid;
+  border-width: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 5px 0px 5px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  font-style: normal;
+
+  text-align: center;
+  cursor: pointer;
+  background: none;
+}
+
+.btn-primary {
+  color: rgb(47, 154, 224);
+  border-color: rgb(47, 154, 224);
+}
+.btn-black {
+  color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+}
+.btn-green {
+  color: rgb(10, 194, 65);
+  border-color: rgb(10, 194, 65);
+}
+.btn-red {
+  color: red;
+  border-color: red;
+}

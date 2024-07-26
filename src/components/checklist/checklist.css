@@ -1,0 +1,38 @@
+.cl--main {
+  width: 300px;
+}
+
+.cl--display {
+  width: 210px;
+  padding: 10px;
+  border: solid;
+  margin-bottom: 0px;
+  margin-left: 3px;
+  border-width: 1px;
+  overflow-y: scroll;
+}
+
+.cl--items {
+  width: 210px;
+  height: 110px;
+  margin-top: 0%;
+  border: solid;
+  border-width: 1px;
+  text-align: left;
+  overflow-y: scroll;
+  font-size: 20px;
+  padding: 10px;
+  margin-left: 7px;
+}
+
+.cl--search {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(178, 177, 177);
+}
+.cl--search:focus {
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: rgb(178, 177, 177);
+  box-shadow: 0 0 0 2px rgb(171, 236, 248);
+}
